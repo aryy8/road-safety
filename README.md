@@ -1,6 +1,10 @@
 # Road Safety Automated Audit System
 
 An AI-powered computer vision system for automated road infrastructure monitoring, safety assessment, and maintenance prioritization. This project leverages a **trained YOLO model deployed via Roboflow's serverless API** to detect **17 road safety classes**, utilizing the **"detect-count-and-visualize" workflow** for real-time processing and automated report generation.
+![WhatsApp Image 2025-11-15 at 13 37 09 (1)](https://github.com/user-attachments/assets/27378382-ecf4-45d7-a991-7b7408772b47)
+![WhatsApp Image 2025-11-15 at 13 36 18](https://github.com/user-attachments/assets/3f29ba67-03c0-4a57-8a8a-f7f0e398b975)
+
+
 
 ## 🚀 Key Features
 
