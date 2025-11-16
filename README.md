@@ -3,10 +3,15 @@
 An AI-powered computer vision system for automated road infrastructure monitoring, safety assessment, and maintenance prioritization. This project leverages a **trained YOLO model deployed via Roboflow's serverless API** to detect **17 road safety classes**, utilizing the **"detect-count-and-visualize" workflow** for real-time processing and automated report generation.
 ![WhatsApp Image 2025-11-15 at 13 37 09 (1)](https://github.com/user-attachments/assets/27378382-ecf4-45d7-a991-7b7408772b47)
 ![WhatsApp Image 2025-11-15 at 13 36 18](https://github.com/user-attachments/assets/3f29ba67-03c0-4a57-8a8a-f7f0e398b975)
+<br>
+![WhatsApp Image 2025-11-15 at 13 37 09](https://github.com/user-attachments/assets/5cf3c14f-f87c-464a-9421-8d237c79d1c0)
+![WhatsApp Image 2025-11-15 at 13 36 18 (2)](https://github.com/user-attachments/assets/d7ea5632-ebcc-4e7f-8631-30a2fc3eb68a)
 
 
 
-## 🚀 Key Features
+
+
+## Key Features
 
 - **Serverless Inference**: Cloud-based YOLO model processing via Roboflow API
 - **Real-time Visualization**: Live detection counting and visualization
@@ -14,7 +19,7 @@ An AI-powered computer vision system for automated road infrastructure monitorin
 - **Automated Reporting**: PDF reports with risk scoring and trend analysis
 - **CSV Logging**: Structured detection data with unique identifiers
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 ### Computer Vision & ML
 - **YOLOv8** (via `ultralytics`) - Primary object detection framework
@@ -63,7 +68,7 @@ road_safety/
 └── *.MP4                       # Video files for analysis
 ```
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8+
@@ -85,7 +90,7 @@ road_safety/
    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
    ```
 
-## 🎯 Core Components
+## Core Components
 
 ### 1. Roboflow Workflow Inference (`final_eval_logs.py`)
 **Primary inference method using trained YOLO model via serverless API**
@@ -184,7 +189,7 @@ Advanced risk scoring system for maintenance prioritization.
 - Trend analysis plots
 - CSV risk scores
 
-## 📊 Data Formats
+## Data Formats
 
 ### Detection Results (`detections.csv`)
 ```csv
@@ -209,7 +214,7 @@ frame,class,confidence,x1,y1,x2,y2,width,height,bbox_area,uuid
 - sign board, streetlight, traffic light, vehicle
 - yellow markings, zebra crossing
 
-## 🔧 Usage Workflows
+## Usage Workflows
 
 ### 1. Primary Workflow: Roboflow Serverless API
 ```bash
@@ -264,7 +269,7 @@ pipeline.start()
 pipeline.join()
 ```
 
-## 🏃‍♂️ Model Training
+##  Model Training
 
 ### Using Roboflow
 1. Upload dataset to Roboflow Universe
@@ -287,7 +292,7 @@ model.train(
 )
 ```
 
-## 📈 Output Analysis
+## Output Analysis
 
 ### Risk Score Interpretation
 - **0-33 (Green)**: Low risk - Periodic monitoring
@@ -300,7 +305,7 @@ model.train(
 - **Missing Elements**: Critical safety components not detected
 - **Confidence Degradation**: Model performance over time
 
-## 🔍 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 1. **CUDA Out of Memory**: Reduce batch size or use CPU
@@ -328,11 +333,11 @@ model.train(
 - Test with multiple video formats
 - Update README for new features
 
-## 📄 License
+##  License
 
 This project is licensed under CC BY 4.0 (as per Roboflow dataset license).
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Roboflow** for dataset hosting and model training
 - **Ultralytics** for YOLOv8 implementation
