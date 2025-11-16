@@ -114,6 +114,9 @@ python final_eval_logs.py
 - Provides real-time counting and visualization
 - Saves structured detection data to CSV
 
+![WhatsApp Image 2025-11-15 at 12 17 45](https://github.com/user-attachments/assets/4da208ca-7ede-4003-9e12-bece3865a95e)
+
+
 ### 2. Multi-Model Video Inference (`multi_model_video_inference.py`)
 **Alternative local inference using multiple specialized YOLO models**
 
@@ -191,6 +194,8 @@ Advanced risk scoring system for maintenance prioritization.
 - Per-class detail pages
 - Trend analysis plots
 - CSV risk scores
+![WhatsApp Image 2025-11-15 at 12 38 56](https://github.com/user-attachments/assets/66cbbed6-5ad2-4c86-a095-85fe5a77845a)
+
 
 ## Data Formats
 
@@ -216,8 +221,10 @@ frame,class,confidence,x1,y1,x2,y2,width,height,bbox_area,uuid
 - lane, laneline, offroad, pole, road marking
 - sign board, streetlight, traffic light, vehicle
 - yellow markings, zebra crossing
+![WhatsApp Image 2025-11-15 at 12 41 37](https://github.com/user-attachments/assets/e180a390-4ad5-4e33-b377-06da6e8d6797)
 
 ## Usage Workflows
+
 
 ### 1. Primary Workflow: Roboflow Serverless API
 ```bash
