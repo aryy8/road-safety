@@ -47,14 +47,14 @@ An AI-powered computer vision system for automated road infrastructure monitorin
 - **Real-time Processing** - Video analysis with live visualization
 - **CSV Export** - Structured detection logging with unique IDs
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 road_safety/
-├── My-First-Project-2/          # Roboflow dataset
+├── roadeye-nf4ie/1          # Self annotated dataset
 │   ├── data.yaml               # Dataset configuration
 │   ├── train/                  # Training images and labels
-│   ├── valid/                  # Validation images and labels
+│   ├── valid/                  # Validation images and labels 
 │   └── test/                   # Test images and labels
 ├── runs/                       # YOLO training/inference outputs
 │   └── detect/                 # Detection results
@@ -67,6 +67,9 @@ road_safety/
 ├── *.png                       # Visualization outputs
 └── *.MP4                       # Video files for analysis
 ```
+
+
+
 
 ## Installation
 
