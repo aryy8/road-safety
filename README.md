@@ -319,13 +319,6 @@ model.train(
 - Process videos in segments for large files
 - Use `--device cpu` for systems without CUDA
 
-## 🤝 Contributing
-
-1. **Fork the repository**
-2. **Create a feature branch**
-3. **Make your changes**
-4. **Test thoroughly with sample videos**
-5. **Submit a pull request**
 
 ### Development Guidelines
 - Follow existing code style and structure
