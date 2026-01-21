@@ -47,30 +47,6 @@ An AI-powered computer vision system for automated road infrastructure monitorin
 - **Real-time Processing** - Video analysis with live visualization
 - **CSV Export** - Structured detection logging with unique IDs
 
-##  Project Structure
-
-```
-road_safety/
-├── roadeye-nf4ie/1          # Self annotated dataset
-│   ├── data.yaml               # Dataset configuration
-│   ├── train/                  # Training images and labels
-│   ├── valid/                  # Validation images and labels 
-│   └── test/                   # Test images and labels
-├── runs/                       # YOLO training/inference outputs
-│   └── detect/                 # Detection results
-├── report_outputs/             # Basic analysis reports
-├── audit_report_outputs/       # Advanced audit reports
-├── risk_report_outputs/        # Risk assessment reports
-├── *.pt                        # Trained YOLO model weights
-├── *.py                        # Python scripts
-├── *.csv                       # Detection data and analysis results
-├── *.png                       # Visualization outputs
-└── *.MP4                       # Video files for analysis
-```
-
-
-
-
 ## Installation
 
 ### Prerequisites
